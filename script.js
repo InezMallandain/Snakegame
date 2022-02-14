@@ -1,4 +1,15 @@
-/* function to start the game */
+var gridSize = (tileSize = 20); // 20 x 20 = 400
+var nextX = (nextY = 0);
+
+// snake
+var defaultTailSize = 3;
+var tailSize = defaultTailSize;
+var snakeTrail = [];
+var snakeX = (snakeY = 10);
+
+// apple
+var appleX = (appleY = 15);
+
 function startGame(x) {
     // setting gameActive flag to true
     gameActive = true;
